@@ -1,0 +1,202 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5501/index%20instagram.html
+Subject: Instagram Profile
+Date: Fri, 30 Oct 2026 17:18:54 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--UcY5sWvBy0CYjzXQWqZxkoFPPmthPHWycQvix5EUee----"
+
+
+------MultipartBoundary--UcY5sWvBy0CYjzXQWqZxkoFPPmthPHWycQvix5EUee----
+Content-Type: text/html
+Content-ID: <frame-B65E8B2C34BC78F151FA57C7C1936D3C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5501/index%20instagram.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-9c830fd0-cab1-4d78-809a-7a6ca7e2738c@mhtml.blink" />
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Instagram Profile</title>
+
+   =20
+</head>
+
+<body>
+
+<div class=3D"profile">
+
+    <!-- Profile Header -->
+
+    <div class=3D"top">
+
+        <img src=3D"http://127.0.0.1:5501/images/profile.jpg" class=3D"prof=
+ile-pic">
+
+        <div class=3D"details">
+
+            <h1>__.paru.____.h =E2=9A=99</h1>
+
+            <p>____.=F0=9F=92=99 =E2=99=BE=EF=B8=8F =F0=9F=A6=8B.____</p>
+
+            <div class=3D"stats">
+                <span><b>0</b> posts</span>
+                <span><b>648</b> followers</span>
+                <span><b>623</b> following</span>
+            </div>
+
+            <div class=3D"bio">
+                <p>=F0=9F=A6=8B</p>
+                <p>Threads: __.paru.____.h</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Profile Buttons -->
+
+    <div class=3D"buttons">
+        <button>Edit profile</button>
+        <button>View archive</button>
+    </div>
+
+
+    <!-- Story Highlights -->
+
+    <div class=3D"highlights">
+
+        <div class=3D"story">
+            <img src=3D"http://127.0.0.1:5501/images/highlight1.jpg">
+            <p>=F0=9F=8C=BB =F0=9F=92=97</p>
+        </div>
+
+        <div class=3D"story">
+            <img src=3D"http://127.0.0.1:5501/images/highlight2.jpg">
+            <p>=F0=9F=AA=AC =F0=9F=92=97</p>
+        </div>
+
+        <div class=3D"story">
+            <img src=3D"http://127.0.0.1:5501/images/highlight3.jpg">
+            <p>3/6/25 =F0=9F=A5=BA</p>
+        </div>
+
+        <div class=3D"story">
+            <img src=3D"http://127.0.0.1:5501/images/highlight4.jpg">
+            <p>Love =F0=9F=92=9E</p>
+        </div>
+
+        <div class=3D"story">
+            <img src=3D"http://127.0.0.1:5501/images/highlight5.jpg">
+            <p>=F0=9F=95=8A=EF=B8=8F =F0=9F=92=97</p>
+        </div>
+
+        <div class=3D"story">
+            <div class=3D"new-story">+</div>
+            <p>New</p>
+        </div>
+
+    </div>
+
+
+    <!-- Profile Tabs -->
+
+    <div class=3D"tabs">
+        <span>=E2=96=A6</span>
+        <span>=E2=99=A7</span>
+        <span>=E2=87=84</span>
+        <span>=E2=99=99</span>
+    </div>
+
+
+    <!-- Empty Posts Section -->
+
+    <div class=3D"empty">
+
+        <div class=3D"camera">=E2=97=8E</div>
+
+        <h1>Share Photos</h1>
+
+        <p>When you share photos, they will appear on your profile.</p>
+
+        <a href=3D"http://127.0.0.1:5501/index%20instagram.html#">Share you=
+r first photo</a>
+
+    </div>
+
+</div>
+
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--UcY5sWvBy0CYjzXQWqZxkoFPPmthPHWycQvix5EUee----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9c830fd0-cab1-4d78-809a-7a6ca7e2738c@mhtml.blink
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+body { background-color: rgb(12, 16, 20); color: white; font-family: Arial,=
+ sans-serif; }
+
+.profile { width: 700px; margin: 40px auto; }
+
+.top { display: flex; align-items: center; gap: 40px; }
+
+.profile-pic { width: 180px; height: 180px; border-radius: 50%; object-fit:=
+ cover; }
+
+.details h1 { font-size: 28px; margin-bottom: 20px; }
+
+.stats { display: flex; gap: 22px; margin-top: 20px; }
+
+.bio { margin-top: 25px; line-height: 1.8; }
+
+.buttons { display: flex; gap: 10px; margin-top: 35px; }
+
+button { flex: 1 1 0%; padding: 16px; border-width: medium; border-style: n=
+one; border-color: currentcolor; border-image: none; border-radius: 15px; b=
+ackground-color: rgb(38, 42, 46); color: white; font-size: 16px; font-weigh=
+t: bold; cursor: pointer; }
+
+button:hover { background-color: rgb(57, 61, 66); }
+
+.highlights { display: flex; justify-content: space-between; margin-top: 60=
+px; text-align: center; }
+
+.story img { width: 90px; height: 90px; border-radius: 50%; border: 5px sol=
+id rgb(52, 56, 61); padding: 4px; object-fit: cover; }
+
+.story p { margin-top: 12px; font-size: 14px; font-weight: bold; }
+
+.new-story { width: 90px; height: 90px; border: 5px solid rgb(52, 56, 61); =
+border-radius: 50%; display: flex; align-items: center; justify-content: ce=
+nter; font-size: 55px; color: rgb(119, 119, 119); }
+
+.tabs { display: flex; justify-content: space-around; margin-top: 55px; pad=
+ding: 20px; border-bottom: 1px solid rgb(51, 51, 51); color: rgb(153, 153, =
+153); font-size: 25px; }
+
+.tabs span:first-child { color: white; border-bottom: 2px solid white; padd=
+ing-bottom: 15px; }
+
+.empty { text-align: center; margin-top: 75px; }
+
+.camera { width: 75px; height: 75px; border: 2px solid white; border-radius=
+: 50%; display: flex; align-items: center; justify-content: center; margin:=
+ auto; font-size: 40px; }
+
+.empty h1 { margin-top: 25px; font-size: 35px; }
+
+.empty p { margin-top: 20px; font-size: 17px; }
+
+.empty a { display: inline-block; margin-top: 25px; color: rgb(101, 156, 25=
+5); text-decoration: none; font-weight: bold; }
+------MultipartBoundary--UcY5sWvBy0CYjzXQWqZxkoFPPmthPHWycQvix5EUee------

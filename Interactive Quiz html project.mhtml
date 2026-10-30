@@ -1,0 +1,110 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/Interactive%20Quiz/
+Subject: Interactive Quiz
+Date: Fri, 30 Oct 2026 18:15:45 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--YGnaHm5hG7n7bwa16a6E4pN0z45vpLZnIPpBTKtyu1----"
+
+
+------MultipartBoundary--YGnaHm5hG7n7bwa16a6E4pN0z45vpLZnIPpBTKtyu1----
+Content-Type: text/html
+Content-ID: <frame-F72C527BD3CD69653BE4394516E2578F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/Interactive%20Quiz/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Interactive Quiz</title>
+    <link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/Interactive%20Qu=
+iz/style.css">
+   =20
+</head>
+<body>
+
+```
+<div class=3D"quiz-container">
+
+    <div id=3D"welcome" class=3D"hide">
+        <h1>Welcome to Interactive Quiz!</h1>
+        <p>Test your knowledge with 10 exciting questions.</p>
+        <button id=3D"start-btn">Start Quiz</button>
+    </div>
+
+    <div id=3D"quiz" class=3D"">
+        <h2 id=3D"question">Question 1: What does HTML stand for?</h2>
+        <div id=3D"options"><button class=3D"option">Hyper Text Markup Lang=
+uage</button><button class=3D"option">High Text Machine Language</button><b=
+utton class=3D"option">Hyperlinks Text Mark Language</button><button class=
+=3D"option">Home Tool Markup Language</button></div>
+        <p id=3D"feedback"></p>
+        <button id=3D"next-btn" disabled=3D"">Next</button>
+    </div>
+
+    <div id=3D"result" class=3D"hide">
+        <h2>Quiz Completed!</h2>
+        <p id=3D"final-score"></p>
+        <button id=3D"restart-btn">Restart Quiz</button>
+    </div>
+
+</div>
+```
+
+<!-- Code injected by live-server -->
+
+
+
+
+</body></html>
+------MultipartBoundary--YGnaHm5hG7n7bwa16a6E4pN0z45vpLZnIPpBTKtyu1----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/Interactive%20Quiz/style.css
+
+@charset "utf-8";
+
+* { margin: 0px; padding: 0px; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; background: linear-gradient(135deg, =
+rgb(102, 126, 234), rgb(118, 75, 162)); min-height: 100vh; display: flex; j=
+ustify-content: center; align-items: center; }
+
+.quiz-container { background: white; width: 90%; max-width: 500px; padding:=
+ 30px; border-radius: 15px; text-align: center; box-shadow: rgba(0, 0, 0, 0=
+.2) 0px 5px 20px; }
+
+h1 { margin-bottom: 25px; color: rgb(51, 51, 51); }
+
+h2 { margin-bottom: 20px; color: rgb(68, 68, 68); }
+
+.option { display: block; width: 100%; padding: 12px; margin: 10px 0px; bor=
+der: 2px solid rgb(75, 63, 114); border-radius: 8px; background: rgb(230, 2=
+24, 245); color: rgb(41, 32, 68); cursor: pointer; font-size: 16px; font-we=
+ight: bold; transition: 0.3s; }
+
+.option:hover { background: rgb(201, 185, 237); border-color: rgb(118, 75, =
+162); }
+
+.option:disabled { cursor: not-allowed; }
+
+.correct { background: rgb(168, 230, 176); color: rgb(20, 85, 35); border-c=
+olor: rgb(35, 134, 54); }
+
+.wrong { background: rgb(255, 179, 179); color: rgb(139, 0, 0); border-colo=
+r: rgb(217, 48, 37); }
+
+button { padding: 12px 25px; margin-top: 15px; border-width: medium; border=
+-style: none; border-color: currentcolor; border-image: none; border-radius=
+: 8px; background: rgb(102, 126, 234); color: white; font-size: 16px; curso=
+r: pointer; }
+
+button:hover { background: rgb(76, 95, 213); }
+
+#feedback { margin-top: 15px; font-weight: bold; color: rgb(51, 51, 51); }
+
+.hide { display: none; }
+------MultipartBoundary--YGnaHm5hG7n7bwa16a6E4pN0z45vpLZnIPpBTKtyu1------
